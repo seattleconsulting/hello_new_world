@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class DemoController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String index(Model model) {
+
         return "index";  //表示するHTMLファイルの名前（拡張子不要）を指定
     }
 }
