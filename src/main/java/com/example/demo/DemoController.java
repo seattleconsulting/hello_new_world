@@ -1,15 +1,28 @@
 package com.example.demo;
 
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.example.demo.model.Weather;
+import com.example.demo.service.WeatherService;
 @Controller
 public class DemoController {
-    @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String index(Model model) {
+  @Autowired
+  WeatherService weatherService;
 
-        return "index";  //表示するHTMLファイルの名前（拡張子不要）を指定
-    }
+  @RequestMapping("/hello")
+  public String hello(Model model) {
+
+    model.addAttribute("hello", "Hello World!"); // Hello World!の表示
+
+    // 気象データの取得
+    List<Weather> weatherDataList = weatherService.findAllWeatherData();
+    model.addAttribute("weatherDataList", weatherDataList);
+
+    return "hello";
+  }
 }
