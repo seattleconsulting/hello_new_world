@@ -20,6 +20,7 @@
   GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
   ※cdでダウンロードしたい場所へ移動
   ※git clone https://github.com/seattleconsulting/hello_new_world.git
-  ※cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
-  ※「SPRING boot アプリケーション」で実施
-  ※「http://localhost:8090/hello」行けば、画面表示できればOK
+
+※cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
+ 「SPRING boot アプリケーション」で実施
+ 「http://localhost:8090/hello」行けば、画面表示できればOK
