@@ -1,8 +1,10 @@
 pjbase_java
 ###
 ## 説明
-待機中のメンバーがjavaのSPRING　bootフレームワークを勉強するための環境です
+待機中のメンバーがjavaのspringbootフレームワークを勉強するための環境です。DBからタスクデータに関するCRUDを一通り操作ができます。
+起動するため、GIT,Eclipse,PostgreSQLなど事前にインストールしてください
 ###
+## インストール手順
 [GITインストール手順](https://qiita.com/taketakekaho/items/75161e1273dca98cb4e1)
 [Eclipseをインストール](https://oenblog.com/program/eclipse-install/#toc2)
 [PostgreSQLインストール手順](https://programming-style.com/postgresql/reference/install-win/)
