@@ -12,7 +12,7 @@ pjbase_java
 [PostgreSQLインストール手順](https://programming-style.com/postgresql/reference/install-win/)
  パスワードはpasswordを定義
 
-※PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、デミデータ作成手順
+### PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、データ作成手順
  # create database testdb;
  # create table task (
     id              serial   primary key,   -- ID
