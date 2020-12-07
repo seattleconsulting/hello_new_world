@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8" />
+  <link href="/css/task.css" rel="stylesheet"></link>
+  <title></title>
+</head>
+<body>
+  <form th:action="@{/update/{id}(id=*{id})}" th:method="post" th:object="${task}">
+     <table>
+        <tr>
+        <th class="cell_title">タスク名</th>
+        <th class="cell_required">※</th>
+        <td><input type="text" th:field="*{name}"></td>
+      </tr>
+      <tr>
+        <th class="cell_title">担当者</th>
+        <th class="cell_required">※</th>
+        <td><input type="text" th:field="*{tantosha}"></td>
+      </tr>
+     </table>
+         <div class="btn_area_center"><input type="submit" value="更新" class="btn"></div>
+   </form>
+</body>
+</html>

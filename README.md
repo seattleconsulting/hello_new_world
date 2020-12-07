@@ -12,9 +12,18 @@
 
 ※PostgreSQLインストール手順
  参考サイト→https://programming-style.com/postgresql/reference/install-win/
+ パスワードは「password」を定義
 
 ※PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、デミデータ作成手順
- 参考サイト→https://intellectual-curiosity.tokyo/2019/04/21/spring-boot%e3%81%a7%e3%83%87%e3%83%bc%e3%82%bf%e3%83%99%e3%83%bc%e3%82%b9%e3%81%ab%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b9%e3%81%99%e3%82%8b%e6%96%b9%e6%b3%95/
+ # create database testdb;
+ # create table task (
+    id              serial   primary key,   -- ID
+    name            varchar(50),            -- タスク名
+    tantosha        varchar(20)             -- 担当名
+);
+ # insert into task (name, tantosha) values
+   ('タスク１', 'Aさん'),
+   ('タスク２', 'Bさん')；
 
 ※プロジェクトをGITからダウンロード手順
   GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
