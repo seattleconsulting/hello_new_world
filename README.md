@@ -13,21 +13,21 @@ pjbase_java
  パスワードはpasswordを定義
 
 ### PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、データ作成手順
- # create database testdb;
- # create table task (
-    id              serial   primary key,   -- ID
-    name            varchar(50),            -- タスク名
-    tantosha        varchar(20)             -- 担当名
-);
- # insert into task (name, tantosha) values
-   ('タスク１', 'Aさん'),
-   ('タスク２', 'Bさん')；
+> # create database testdb;
+> # create table task (
+>    id              serial   primary key,   -- ID
+>    name            varchar(50),            -- タスク名
+>    tantosha        varchar(20)             -- 担当名
+>);
+> # insert into task (name, tantosha) values
+>   ('タスク１', 'Aさん'),
+>   ('タスク２', 'Bさん')；
 
-※プロジェクトをGITからダウンロード手順
-  GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
-  ※cdでダウンロードしたい場所へ移動
-  ※git clone https://github.com/seattleconsulting/hello_new_world.git
+### プロジェクトをGITからダウンロード手順
+GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
+> cdでダウンロードしたい場所へ移動
+> git clone https://github.com/seattleconsulting/hello_new_world.git
 
-※cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
- 「SPRING boot アプリケーション」で実施
- 「http://localhost:8090/task」行けば、画面表示できればOK
+cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
+> 「SPRING boot アプリケーション」で実施
+> 「http://localhost:8090/task」行けば、画面表示できればOK
