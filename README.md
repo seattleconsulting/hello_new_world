@@ -1,5 +1,5 @@
 #### hello_new_world  
-待機中のメンバーがjavaのSPRING bootフレームワークを勉強するための環境です。  起動するため、必要な技術 →GIT、Eclipse、PostgreSQL（ロカールDB)  ####それぞれの機能をインストールしてください。「以下の全手順はWINDOWS版です。」
+1待機中のメンバーがjavaのSPRING bootフレームワークを勉強するための環境です。起動するため、必要な技術 →GIT、Eclipse、PostgreSQL（ロカールDB)  ####それぞれの機能をインストールしてください。「以下の全手順はWINDOWS版です。」
 
 ※GITインストール手順
  参考サイト→https://qiita.com/taketakekaho/items/75161e1273dca98cb4e1
