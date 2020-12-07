@@ -1,14 +1,12 @@
 >待機中のメンバーがjavaのSPRING　bootフレームワークを勉強するための環境です
 >起動するため、GIT,Eclipse,PostgreSQLなどインストールしてください
 
-[GITインストール手順]https://qiita.com/taketakekaho/items/75161e1273dca98cb4e1
+[GITインストール手順](https://qiita.com/taketakekaho/items/75161e1273dca98cb4e1)
 
-※Eclipseをインストール
-!https://oenblog.com/program/eclipse-install/#toc2
+[Eclipseをインストール](https://oenblog.com/program/eclipse-install/#toc2)
 
-※PostgreSQLインストール手順
- 参考サイト→https://programming-style.com/postgresql/reference/install-win/
- パスワードは「password」を定義
+[PostgreSQLインストール手順](https://programming-style.com/postgresql/reference/install-win/)
+ パスワードはpasswordを定義
 
 ※PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、デミデータ作成手順
  # create database testdb;
