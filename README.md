@@ -11,7 +11,7 @@ pjbase_java
 [Eclipseをインストール](https://oenblog.com/program/eclipse-install/#toc2)
 ###
 [PostgreSQLインストール手順](https://programming-style.com/postgresql/reference/install-win/)
->>パスワードはpasswordを設定してください
+DBユーザのパスワードは'password'を設定してください
 
 ### ロカールDB作成、テブールやテストデータ作成手順
 PostgreSQLのSQL SHELL (psql)で以下のコマンドを実施
