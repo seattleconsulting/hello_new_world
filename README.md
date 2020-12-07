@@ -1,4 +1,4 @@
-pjbase_jaba
+pjbase_java
 ###
 ## 説明
 待機中のメンバーがjavaのSPRING　bootフレームワークを勉強するための環境です
