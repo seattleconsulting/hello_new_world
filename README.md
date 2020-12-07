@@ -10,7 +10,7 @@ pjbase_java
 [Eclipseをインストール](https://oenblog.com/program/eclipse-install/#toc2)
 ###
 [PostgreSQLインストール手順](https://programming-style.com/postgresql/reference/install-win/)
- パスワードはpasswordを定義
+##### パスワードはpasswordを設定してください
 
 ### PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、データ作成手順
 > $ create database testdb;
@@ -25,9 +25,9 @@ pjbase_java
 
 ### プロジェクトをGITからダウンロード手順
 GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
-> cdでダウンロードしたい場所へ移動
+> $ cdでダウンロードしたい場所へ移動
 > $ git clone https://github.com/seattleconsulting/hello_new_world.git
 
 cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
-> 「SPRING boot アプリケーション」で実施
+>  SPRING boot アプリケーションで実施
 > 「http://localhost:8090/task」行けば、画面表示できればOK
