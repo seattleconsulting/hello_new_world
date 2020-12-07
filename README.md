@@ -1,8 +1,9 @@
 pjbase_java
 ###
 ## 説明
-待機中のメンバーがjavaのspringbootフレームワークを勉強するための環境です。DBからタスクデータに関するCRUDを一通り操作ができます。
-起動するため、GIT,Eclipse,PostgreSQLなど事前にインストールしてください
+このPJは待機中のメンバーがjavaのspringbootフレームワークを勉強するための環境です。
+ロカールDBを用意して、SAMPLEデータ（タスク）がCRUDを一通り操作ができます。
+起動するため、GIT,Eclipse,PostgreSQLなど事前にインストールしてください。
 ###
 ## インストール手順
 [GITインストール手順](https://qiita.com/taketakekaho/items/75161e1273dca98cb4e1)
@@ -13,12 +14,14 @@ pjbase_java
 ##### パスワードはpasswordを設定してください
 
 ### PostgreSQLのSQL SHELL (psql)でロカールDB作成、テブール、データ作成手順
-> $ create database testdb;
+> $ create database testdb
+###
 > $ create table task (
 >    id              serial   primary key,   -- ID
 >    name            varchar(50),            -- タスク名
 >    tantosha        varchar(20)             -- 担当名
 >);
+###
 > $ insert into task (name, tantosha) values
 >   ('タスク１', 'Aさん'),
 >   ('タスク２', 'Bさん')；
