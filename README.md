@@ -32,4 +32,4 @@
 
 ※cloneしたプロジェクトをEclipse開いて、インプット「一般→フォルダまだはアーカイブからプロジェクト」してください
  「SPRING boot アプリケーション」で実施
- 「http://localhost:8090/hello」行けば、画面表示できればOK
+ 「http://localhost:8090/task」行けば、画面表示できればOK
