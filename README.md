@@ -2,7 +2,7 @@ pjbase_java
 ###
 ## 説明
 このPJは待機中のメンバーがjavaのspringbootフレームワークを勉強するための環境です。
-ロカールDBを用意して、SAMPLEデータ（タスク）がCRUDを一通り操作ができます。
+ロカールDBを用意して、SAMPLEデータのCRUDが一通り操作できます。
 起動するため、GIT,Eclipse,PostgreSQLなど事前にインストールしてください。
 ###
 ## インストール手順
@@ -39,4 +39,4 @@ GITをインストール完了したら、Git Bashを使って以下のコマン
 ###
 >  実施はSPRING boot アプリケーションで実施
 ###
-> タスク一連画面（http://localhost:8090/task)　行けば、画面表示できればOK
+タスク一連画面（http://localhost:8090/task)　行って画面表示できればOK
