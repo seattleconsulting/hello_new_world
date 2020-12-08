@@ -26,7 +26,7 @@ PostgreSQLのSQL SHELL (psql)を再開いて、作成したtestdbを接続して
 ###
 > insert into task (name, tantosha) values
 >   ('タスク１', 'Aさん'),
->   ('タスク２', 'Bさん')；
+>   ('タスク２', 'Bさん')
 
 ### プロジェクトpjbase_javaをGITからダウンロード手順
 GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
