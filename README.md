@@ -16,6 +16,7 @@ DBユーザのパスワードは′password′を設定してください。
 ### ロカールDB作成、テブールやテストデータ作成手順
 PostgreSQLのSQL SHELL (psql)で以下のコマンドを実施
 > create database testdb;
+PostgreSQLのSQL SHELL (psql)を再開いて、作成したtestdbを接続して以下のコマンドを実施
 ###
 > create table task (
 >    id              serial   primary key,  
@@ -23,7 +24,7 @@ PostgreSQLのSQL SHELL (psql)で以下のコマンドを実施
 >    tantosha        varchar(20)             
 >);
 ###
-> $ insert into task (name, tantosha) values
+> insert into task (name, tantosha) values
 >   ('タスク１', 'Aさん'),
 >   ('タスク２', 'Bさん')；
 
