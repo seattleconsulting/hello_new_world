@@ -18,9 +18,9 @@ PostgreSQLのSQL SHELL (psql)で以下のコマンドを実施
 > $ create database testdb
 ###
 > $ create table task (
->    id              serial   primary key,   -- ID
->    name            varchar(50),            -- タスク名
->    tantosha        varchar(20)             -- 担当名
+>    id              serial   primary key,  
+>    name            varchar(50),            
+>    tantosha        varchar(20)             
 >);
 ###
 > $ insert into task (name, tantosha) values
