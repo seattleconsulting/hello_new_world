@@ -32,7 +32,7 @@ PostgreSQLのSQL SHELL (psql)を再開いて、作成したtestdbを接続して
 GITをインストール完了したら、Git Bashを使って以下のコマンドを実施
 > $ cdでダウンロードしたい場所へ移動
 ###
-> $ git clone https://github.com/seattleconsulting/hello_new_world.git
+> $ git clone https://github.com/seattleconsulting/pjbase_java.git
 ###
 ### cloneしたプロジェクトpjbase_javaをEclipse開いてインプット、起動手順
 ###
